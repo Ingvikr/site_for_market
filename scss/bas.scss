@@ -1,0 +1,19 @@
+.wrapper {
+    .grid_cont {
+        display: grid;
+        grid-template-areas: "heade"
+                              "mai"
+                              "foote";
+    }
+    .heade {
+        display: grid;
+        grid-template: minmax(15px, 58px) / minmax(15px, 1fr);
+        background-color: #FFEFFD;
+    }
+    .heade_lin {
+        display: grid;
+        .heade_log {
+            
+        }
+    }
+}
