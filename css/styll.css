@@ -3,6 +3,22 @@
 @import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+body::-webkit-scrollbar {
+  width: 9px;
+  background-color: transparent;
+  border-radius: 50px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 50px;
+}
+
 .wrapper .grid_cont {
   display: -ms-grid;
   display: grid;
@@ -15,8 +31,11 @@
   -ms-grid-columns: minmax(15px, 1fr);
       grid-template: minmax(15px, 58px)/minmax(15px, 1fr);
   background-color: #FFEFFD;
+  -ms-grid-row-align: end;
+      align-self: end;
 }
 .wrapper .heade_lin {
+  position: relative;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: minmax(15px, 1fr);
@@ -34,26 +53,25 @@
       align-self: center;
   margin-left: 7px;
 }
-@media (max-width: 1024px) {
-  .wrapper .heade_lin .heade_log {
-    -ms-grid-column-align: center;
-        justify-self: center;
-  }
-}
 @media (max-width: 768px) {
   .wrapper .heade_lin .heade_log {
     -ms-grid-column-align: center;
         justify-self: center;
   }
 }
+@media (max-width: 425px) {
+  .wrapper .heade_lin .heade_log {
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+}
 .wrapper .heade_lin .na {
-  display: -ms-grid;
-  display: grid;
   -ms-grid-columns: minmax(15px, 1fr);
   grid-template-columns: minmax(15px, 1fr);
-  -ms-grid-column-align: start;
-      justify-self: start;
-  background-color: darkblue;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  position: absolute;
+  top: 17px;
 }
 .wrapper .heade_lin .na .u {
   display: -ms-grid;
@@ -62,11 +80,11 @@
   grid-template-columns: minmax(15px, 97px) minmax(15px, 97px) minmax(15px, 97px) minmax(15px, 97px) minmax(15px, 97px);
   -ms-grid-rows: minmax(15px, 31px);
   grid-template-rows: minmax(15px, 31px);
-      grid-template-areas: "home lists price about butto";
+      grid-template-areas: "home lists price about butto burg";
   grid-column-gap: 15px;
 }
 .wrapper .heade_lin .na .u .l_5 {
-  color: white;
+  color: black;
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
   list-style: none;
@@ -74,36 +92,170 @@
   border: 1px solid #A52298;
   width: 97px;
   border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .wrapper .heade_lin .na .u .l_5 {
+    opacity: 0%;
+  }
+}
+.wrapper .heade_lin .na .u .l_5:hover {
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  background-color: #A52298;
 }
 .wrapper .heade_lin .na .u .l_1, .wrapper .heade_lin .na .u .l_2, .wrapper .heade_lin .na .u .l_3, .wrapper .heade_lin .na .u .l_4 {
   font-size: 17px;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   list-style: none;
-  color: white;
-  border: 1.5px dashed black;
-  background-color: darkgreen;
+  color: black;
+  overflow: hidden;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .wrapper .heade_lin .na .u .l_1, .wrapper .heade_lin .na .u .l_2, .wrapper .heade_lin .na .u .l_3, .wrapper .heade_lin .na .u .l_4 {
+    opacity: 0%;
+  }
 }
 .wrapper .heade_lin .na .u .l_1 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
+  position: relative;
+  cursor: pointer;
   grid-area: home;
+}
+.wrapper .heade_lin .na .u .l_1::after {
+  content: " ";
+  position: absolute;
+  width: 0px;
+  height: 3px;
+  left: 0px;
+  bottom: 5px;
+  border-radius: 50px;
+  background-color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.wrapper .heade_lin .na .u .l_1:hover::after {
+  width: 90px;
+  cursor: pointer;
 }
 .wrapper .heade_lin .na .u .l_2 {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
+  position: relative;
+  cursor: pointer;
   grid-area: lists;
+}
+.wrapper .heade_lin .na .u .l_2::after {
+  content: " ";
+  position: absolute;
+  width: 0px;
+  height: 3px;
+  left: 0px;
+  bottom: 5px;
+  border-radius: 50px;
+  background-color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.wrapper .heade_lin .na .u .l_2:hover::after {
+  width: 90px;
+  cursor: pointer;
 }
 .wrapper .heade_lin .na .u .l_3 {
   -ms-grid-row: 1;
   -ms-grid-column: 5;
+  position: relative;
+  cursor: pointer;
   grid-area: price;
+}
+.wrapper .heade_lin .na .u .l_3::after {
+  content: " ";
+  position: absolute;
+  width: 0px;
+  height: 3px;
+  left: 0px;
+  bottom: 5px;
+  border-radius: 50px;
+  background-color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.wrapper .heade_lin .na .u .l_3:hover::after {
+  width: 90px;
+  cursor: pointer;
 }
 .wrapper .heade_lin .na .u .l_4 {
   -ms-grid-row: 1;
   -ms-grid-column: 7;
+  position: relative;
+  cursor: pointer;
   grid-area: about;
 }
-.wrapper .heade_lin .na .u .ico_svg9 {
-  color: white;
+.wrapper .heade_lin .na .u .l_4::after {
+  content: " ";
+  position: absolute;
+  width: 0px;
+  height: 3px;
+  left: 0px;
+  bottom: 5px;
+  border-radius: 50px;
+  background-color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.wrapper .heade_lin .na .u .l_4:hover::after {
+  width: 90px;
+  cursor: pointer;
+}
+.wrapper .heade_lin .na .u .l_6 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 11;
+  grid-area: burg;
+  fill: transparent;
+  width: 97px;
+  height: 31px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0%;
+}
+@media (max-width: 768px) {
+  .wrapper .heade_lin .na .u .l_6 {
+    fill: black;
+    cursor: pointer;
+    opacity: 100%;
+    -ms-grid-column-align: end;
+        justify-self: end;
+  }
+  .wrapper .heade_lin .na .u .l_6:hover {
+    cursor: pointer;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    fill: #A52298;
+  }
 }

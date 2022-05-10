@@ -1,4 +1,5 @@
 @import "medi/medi.scss";
+@import "webki.scss";
 @import "font.scss";
 
 .wrapper {
@@ -12,8 +13,10 @@
         display: grid;
         grid-template: minmax(15px, 58px) / minmax(15px, 1fr);
         background-color: #FFEFFD;
+        align-self: end;
     }
     .heade_lin {
+        position: relative;
         display: grid;
         grid-template-columns: minmax(15px, 1fr);
         .heade_log {
@@ -24,27 +27,27 @@
             font-family: "Teko", sans-serif;
             align-self: center;
             margin-left: 7px;
-            @include desk_scree2 {
+            @include desk_scree3 {
                 justify-self: center;
             }
             
-            @include desk_scree3 {
+            @include desk_scree4 {
                 justify-self: center;
             }
         }
         .na {
-            display: grid;
             grid-template-columns: minmax(15px, 1fr);
-            justify-self: start;
-            background-color: darkblue;
+            justify-self: end;
+            position: absolute;
+            top: 17px;
             .u {
                 display: grid;
                 grid-template-columns: minmax(15px, 97px) minmax(15px, 97px) minmax(15px, 97px) minmax(15px, 97px) minmax(15px, 97px); 
                 grid-template-rows: minmax(15px, 31px);     
-                grid-template-areas: "home lists price about butto";
+                grid-template-areas: "home lists price about butto burg";
                 grid-column-gap: 15px;
                 .l_5 {
-                    color: white;
+                    color: black;
                     font-size: 15px;
                     font-family: "Open Sans", sans-serif;
                     list-style: none;
@@ -52,34 +55,140 @@
                     border: 1px solid #A52298;
                     width: 97px;
                     border-radius: 5px;
+                    transition: 0.5s;
+                    cursor: pointer;
+                    @include desk_scree3 {
+                        opacity: 0%;
+                    }
+                    &:hover {
+                        cursor: pointer;
+                        font-family: "Open Sans", sans-serif;
+                        color: white;
+                        background-color: #A52298;
+                    }
                 }
                 .l_1, .l_2, .l_3, .l_4, {
                     font-size: 17px;
                     font-family: "Open Sans", sans-serif;
                     font-style: normal;
                     list-style: none;
-                    color: white;
-                    border: 1.5px dashed black;
-                    background-color: darkgreen;
+                    color: black;
+                    overflow: hidden;
+                    text-align: center;
+                    @include desk_scree3 {
+                        opacity: 0%;
+                    }
                 }
                 .l_1 {
+                    position: relative;
+                    cursor: pointer;
                     grid-area: home;
+                    &::after {
+                        content: " ";
+                        position: absolute;
+                        width: 0px;
+                        height: 3px;
+                        left: 0px;
+                        bottom: 5px;
+                        border-radius: 50px;
+                        background-color: black;
+                        align-items: center;
+                        justify-self: center;
+                        transition: 0.5s;
+                    }
+                    &:hover::after {
+                        width: 90px;
+                        cursor: pointer;
+                    }
                 }
 
                 .l_2 {
+                    position: relative;
+                    cursor: pointer;
                     grid-area: lists;
+                    &::after {
+                        content: " ";
+                        position: absolute;
+                        width: 0px;
+                        height: 3px;
+                        left: 0px;
+                        bottom: 5px;
+                        border-radius: 50px;
+                        background-color: black;
+                        align-items: center;
+                        justify-self: center;
+                        transition: 0.5s;
+                    }
+                    &:hover::after {
+                        width: 90px;
+                        cursor: pointer;
+                    }
                 }
 
                 .l_3 {
+                    position: relative;
+                    cursor: pointer;
                     grid-area: price;
+                    &::after {
+                        content: " ";
+                        position: absolute;
+                        width: 0px;
+                        height: 3px;
+                        left: 0px;
+                        bottom: 5px;
+                        border-radius: 50px;
+                        background-color: black;
+                        align-items: center;
+                        justify-self: center;
+                        transition: 0.5s;
+                    }
+                    &:hover::after {
+                        width: 90px;
+                        cursor: pointer;
+                    }
                 }
 
                 .l_4 {
+                    position: relative;
+                    cursor: pointer;
                     grid-area: about;
+                    &::after {
+                        content: " ";
+                        position: absolute;
+                        width: 0px;
+                        height: 3px;
+                        left: 0px;
+                        bottom: 5px;
+                        border-radius: 50px;
+                        background-color: black;
+                        align-items: center;
+                        justify-self: center;
+                        transition: 0.5s;
+                    }
+                    &:hover::after {
+                        width: 90px;
+                        cursor: pointer;
+                    }
                 }
-                .ico_svg9 {
-                    color: white;
-                }
+                .l_6 {
+                    grid-area: burg;
+                    fill: transparent;
+                    width: 97px;
+                    height: 31px;
+                    transition: 0.5s;
+                    opacity: 0%;
+                    @include desk_scree3 {
+                        fill: black;
+                        cursor: pointer;
+                        opacity: 100%;
+                        justify-self: end;
+                        &:hover {
+                            cursor: pointer;
+                            transform: rotate(90deg);
+                            fill: #A52298;
+                        }
+                    }
+                } 
             }
         }
     }
