@@ -1,0 +1,3 @@
+header - #FFEFFD;
+text_in_header - #000000;
+block_in_header - #A52298;
