@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700&display=swap");
 body::-webkit-scrollbar {
   width: 9px;
   background-color: transparent;
@@ -17,6 +18,430 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: black;
   border-radius: 50px;
+}
+
+.asi {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(15px, 190px);
+  grid-template-columns: minmax(15px, 190px);
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+@media (max-width: 768px) {
+  .asi {
+    -ms-grid-columns: minmax(15px, 1fr);
+    grid-template-columns: minmax(15px, 1fr);
+    -ms-grid-rows: minmax(15px, 190px);
+    grid-template-rows: minmax(15px, 190px);
+  }
+  .asi > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+}
+.asi .asi_conte {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(15px, 130px) minmax(15px, 130px) minmax(15px, 130px) minmax(15px, 130px) minmax(15px, 130px) minmax(15px, 130px) minmax(15px, 130px);
+  grid-template-columns: minmax(15px, 130px) minmax(15px, 130px) minmax(15px, 130px) minmax(15px, 130px) minmax(15px, 130px) minmax(15px, 130px) minmax(15px, 130px);
+  background-color: #ECF9FF;
+  margin-top: 13px;
+}
+@media (max-width: 1440px) {
+  .asi .asi_conte {
+    overflow: hidden;
+  }
+}
+@media (max-width: 1024px) {
+  .asi .asi_conte {
+    overflow: hidden;
+  }
+}
+@media (max-width: 768px) {
+  .asi .asi_conte {
+    overflow: scroll;
+    font-style: normal;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+@media (max-width: 425px) {
+  .asi .asi_conte {
+    overflow: scroll;
+    font-size: 13px;
+    font-style: normal;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+@media (max-width: 375px) {
+  .asi .asi_conte {
+    overflow: scroll;
+    font-size: 10px;
+    font-style: normal;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+.asi .asi_conte .na_2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(15px, 90px);
+  grid-template-columns: minmax(15px, 90px);
+}
+.asi .asi_conte .na_2 .u_2 {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "na_li1" "na_li2" "na_li3" "na_li4" "na_li5" "na_li6" "na_li7" "na_li8" "na_li9" "na_li10" "na_li11" "na_li12" "na_li13" "na_li14" "na_li15" "na_li16" "na_li17" "na_li18" "na_li19";
+  grid-row-gap: 15px;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  color: #3A3A3A;
+  list-style: none;
+}
+@media (max-width: 768px) {
+  .asi .asi_conte .na_2 .u_2 {
+    overflow: hidden;
+  }
+}
+.asi .asi_conte .na_2 .u_2 .l_2_2, .asi .asi_conte .na_2 .u_2 .l_2_3, .asi .asi_conte .na_2 .u_2 .l_2_4, .asi .asi_conte .na_2 .u_2 .l_2_5, .asi .asi_conte .na_2 .u_2 .l_2_6, .asi .asi_conte .na_2 .u_2 .l_2_7, .asi .asi_conte .na_2 .u_2 .l_2_8, .asi .asi_conte .na_2 .u_2 .l_2_9, .asi .asi_conte .na_2 .u_2 .l_2_11, .asi .asi_conte .na_2 .u_2 .l_2_12, .asi .asi_conte .na_2 .u_2 .l_2_13, .asi .asi_conte .na_2 .u_2 .l_2_14, .asi .asi_conte .na_2 .u_2 .l_2_16, .asi .asi_conte .na_2 .u_2 .l_2_17, .asi .asi_conte .na_2 .u_2 .l_2_18, .asi .asi_conte .na_2 .u_2 .l_2_19 {
+  width: 130px;
+  font-size: 17px;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+}
+@media (max-width: 768px) {
+  .asi .asi_conte .na_2 .u_2 .l_2_2, .asi .asi_conte .na_2 .u_2 .l_2_3, .asi .asi_conte .na_2 .u_2 .l_2_4, .asi .asi_conte .na_2 .u_2 .l_2_5, .asi .asi_conte .na_2 .u_2 .l_2_6, .asi .asi_conte .na_2 .u_2 .l_2_7, .asi .asi_conte .na_2 .u_2 .l_2_8, .asi .asi_conte .na_2 .u_2 .l_2_9, .asi .asi_conte .na_2 .u_2 .l_2_11, .asi .asi_conte .na_2 .u_2 .l_2_12, .asi .asi_conte .na_2 .u_2 .l_2_13, .asi .asi_conte .na_2 .u_2 .l_2_14, .asi .asi_conte .na_2 .u_2 .l_2_16, .asi .asi_conte .na_2 .u_2 .l_2_17, .asi .asi_conte .na_2 .u_2 .l_2_18, .asi .asi_conte .na_2 .u_2 .l_2_19 {
+    overflow: hidden;
+    width: 200px;
+  }
+}
+.asi .asi_conte .na_2 .u_2 .l_2_1 {
+  color: #616161;
+  font-size: 13px;
+  font-family: "Ruda", sans-serif;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_10 {
+  color: #616161;
+  font-size: 13px;
+  font-family: "Ruda", sans-serif;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_15 {
+  color: #616161;
+  font-size: 13px;
+  font-family: "Ruda", sans-serif;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: na_li1;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_2 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  position: relative;
+  grid-area: na_li2;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_2::after {
+  content: " ";
+  position: absolute;
+  width: 0px;
+  height: 3.5px;
+  left: 0px;
+  bottom: -5px;
+  border-radius: 50px;
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_2:hover::after {
+  width: 105px;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_3 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  position: relative;
+  grid-area: na_li3;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_3::after {
+  content: " ";
+  position: absolute;
+  width: 0px;
+  height: 3.5px;
+  left: 0px;
+  bottom: -5px;
+  border-radius: 50px;
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_3:hover::after {
+  width: 105px;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_4 {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+  position: relative;
+  grid-area: na_li4;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_4::after {
+  content: " ";
+  position: absolute;
+  width: 0px;
+  height: 3.5px;
+  left: 0px;
+  bottom: -5px;
+  border-radius: 50px;
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_4:hover::after {
+  width: 105px;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_5 {
+  -ms-grid-row: 9;
+  -ms-grid-column: 1;
+  position: relative;
+  grid-area: na_li5;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_5::after {
+  content: " ";
+  position: absolute;
+  width: 0px;
+  height: 3.5px;
+  left: 0px;
+  bottom: -5px;
+  border-radius: 50px;
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_5:hover::after {
+  width: 105px;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_6 {
+  -ms-grid-row: 11;
+  -ms-grid-column: 1;
+  position: relative;
+  grid-area: na_li6;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_6::after {
+  content: " ";
+  position: absolute;
+  width: 0px;
+  height: 3.5px;
+  left: 0px;
+  bottom: -5px;
+  border-radius: 50px;
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_6:hover::after {
+  width: 105px;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_7 {
+  -ms-grid-row: 13;
+  -ms-grid-column: 1;
+  position: relative;
+  grid-area: na_li7;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_7::after {
+  content: " ";
+  position: absolute;
+  width: 0px;
+  height: 3.5px;
+  left: 0px;
+  bottom: -5px;
+  border-radius: 50px;
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_7:hover::after {
+  width: 105px;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_8 {
+  -ms-grid-row: 15;
+  -ms-grid-column: 1;
+  position: relative;
+  grid-area: na_li8;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_8::after {
+  content: " ";
+  position: absolute;
+  width: 0px;
+  height: 3.5px;
+  left: 0px;
+  bottom: -5px;
+  border-radius: 50px;
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_8:hover::after {
+  width: 105px;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_9 {
+  -ms-grid-row: 17;
+  -ms-grid-column: 1;
+  position: relative;
+  grid-area: na_li9;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_9::after {
+  content: " ";
+  position: absolute;
+  width: 0px;
+  height: 3.5px;
+  left: 0px;
+  bottom: -5px;
+  border-radius: 50px;
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_9:hover::after {
+  width: 105px;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_10 {
+  -ms-grid-row: 19;
+  -ms-grid-column: 1;
+  grid-area: na_li10;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_11 {
+  -ms-grid-row: 21;
+  -ms-grid-column: 1;
+  position: relative;
+  grid-area: na_li11;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_11::after {
+  content: " ";
+  position: absolute;
+  width: 0px;
+  height: 3.5px;
+  left: 0px;
+  bottom: -5px;
+  border-radius: 50px;
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_11:hover::after {
+  width: 105px;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_12 {
+  -ms-grid-row: 23;
+  -ms-grid-column: 1;
+  position: relative;
+  grid-area: na_li12;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_12::after {
+  content: " ";
+  position: absolute;
+  width: 0px;
+  height: 3.5px;
+  left: 0px;
+  bottom: -5px;
+  border-radius: 50px;
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_12:hover::after {
+  width: 105px;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_13 {
+  -ms-grid-row: 25;
+  -ms-grid-column: 1;
+  position: relative;
+  grid-area: na_li13;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_13::after {
+  content: " ";
+  position: absolute;
+  width: 0px;
+  height: 3.5px;
+  left: 0px;
+  bottom: -5px;
+  border-radius: 50px;
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_13:hover::after {
+  width: 105px;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_14 {
+  -ms-grid-row: 27;
+  -ms-grid-column: 1;
+  position: relative;
+  grid-area: na_li14;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_14::after {
+  content: " ";
+  position: absolute;
+  width: 0px;
+  height: 3.5px;
+  left: 0px;
+  bottom: -5px;
+  border-radius: 50px;
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_14:hover::after {
+  width: 105px;
+  cursor: pointer;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_15 {
+  -ms-grid-row: 29;
+  -ms-grid-column: 1;
+  grid-area: na_li15;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_16 {
+  -ms-grid-row: 31;
+  -ms-grid-column: 1;
+  grid-area: na_li16;
+  font-family: "Commissioner", sans-serif;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_17 {
+  -ms-grid-row: 33;
+  -ms-grid-column: 1;
+  grid-area: na_li17;
+  font-family: "Commissioner", sans-serif;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_18 {
+  -ms-grid-row: 35;
+  -ms-grid-column: 1;
+  grid-area: na_li18;
+  font-family: "Commissioner", sans-serif;
+}
+.asi .asi_conte .na_2 .u_2 .l_2_19 {
+  -ms-grid-row: 37;
+  -ms-grid-column: 1;
+  grid-area: na_li19;
 }
 
 .wrapper .grid_cont {
@@ -96,6 +521,13 @@ body::-webkit-scrollbar-thumb {
   transition: 0.5s;
   cursor: pointer;
 }
+@media (max-width: 1024px) {
+  .wrapper .heade_lin .na .u .l_5 {
+    width: 90px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+  }
+}
 @media (max-width: 768px) {
   .wrapper .heade_lin .na .u .l_5 {
     opacity: 0%;
@@ -115,6 +547,12 @@ body::-webkit-scrollbar-thumb {
   color: black;
   overflow: hidden;
   text-align: center;
+}
+@media (max-width: 1024px) {
+  .wrapper .heade_lin .na .u .l_1, .wrapper .heade_lin .na .u .l_2, .wrapper .heade_lin .na .u .l_3, .wrapper .heade_lin .na .u .l_4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+  }
 }
 @media (max-width: 768px) {
   .wrapper .heade_lin .na .u .l_1, .wrapper .heade_lin .na .u .l_2, .wrapper .heade_lin .na .u .l_3, .wrapper .heade_lin .na .u .l_4 {
