@@ -4,6 +4,10 @@
 @import "asi.scss";
 @import "font.scss";
 
+body {
+    background-color: #EFEFEF;
+}
+
 .wrapper {
     display: grid;
     .grid_cont {
