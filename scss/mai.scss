@@ -1,0 +1,323 @@
+.mai {
+    display: grid;
+    grid-template-columns: minmax(15px, 1fr);
+    grid-template-rows: minmax(15px, 2750px);
+    
+    @include desk_scree1 {
+        grid-template-rows: minmax(15px, 3300px);
+    }
+    
+    @include desk_scree2 {
+        grid-template-rows: minmax(15px, 3835px);
+    }
+    
+    @include desk_scree3 {
+        grid-template-rows: minmax(15px, 7483px);
+        margin-top: 30px;
+        justify-self: center;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @include desk_scree4 {
+        grid-template-rows: minmax(15px, 7559px);
+    }
+
+    @include desk_scree5 {
+        grid-template-rows: minmax(15px, 9779px);
+    }
+    .mai_wra {
+        display: grid;
+        grid-template-columns: minmax(15px, 359px);
+        grid-template-rows: minmax(15px, 572px) minmax(15px, 572px) minmax(15px, 572px)  minmax(15px, 572px);
+        grid-template-areas: "mai_pro_1 mai_pro_2 mai_pro_3"
+                             "mai_pro_4 mai_pro_5 mai_pro_6"
+                             "mai_pro_7 mai_pro_8 mai_pro_9"
+                             "mai_pro_10 mai_pro_11 mai_pro_12";
+                             grid-row-gap: 30px;
+                             grid-column-gap: 50px;
+                             justify-self: center;
+                             @include desk_scree2 {
+                                grid-template-columns: minmax(15px, 450px);
+                                grid-template-rows: minmax(15px, 572px) minmax(15px, 572px) minmax(15px, 572px)  minmax(15px, 572px) minmax(15px, 572px) minmax(15px, 572px);
+                                 grid-template-areas: "mai_pro_1 mai_pro_2"
+                                                      "mai_pro_3 mai_pro_4"
+                                                      "mai_pro_5 mai_pro_6"
+                                                      "mai_pro_7 mai_pro_8"
+                                                      "mai_pro_9 mai_pro_10"
+                                                      "mai_pro_11 mai_pro_12";
+                                grid-row-gap: -10px;
+                                grid-column-gap: 50px;
+                             }
+
+                             @include desk_scree3 {
+                                grid-template-columns: minmax(15px, 570px);
+                                grid-template-rows: minmax(15px, 572px) minmax(15px, 572px) minmax(15px, 572px)  minmax(15px, 572px) minmax(15px, 572px) minmax(15px, 572px);
+                                grid-template-areas: "mai_pro_1"
+                                                     "mai_pro_2"
+                                                     "mai_pro_3"
+                                                     "mai_pro_4"
+                                                     "mai_pro_5"
+                                                     "mai_pro_6"
+                                                     "mai_pro_7"
+                                                     "mai_pro_8"
+                                                     "mai_pro_9"
+                                                     "mai_pro_10"
+                                                     "mai_pro_11"
+                                                     "mai_pro_12";
+                                grid-column-gap: 50px;
+                             }
+        .mai_stel_1, .mai_stel_2, .mai_stel_3, .mai_stel_4, .mai_stel_5, .mai_stel_6, .mai_stel_7, .mai_stel_8, .mai_stel_9, .mai_stel_10, .mai_stel_11, .mai_stel_12{
+            border: 1px solid black;
+        }
+        .mai_stel_1 {
+            display: grid;
+            width: 359px;
+            height: 572px;
+            grid-area: mai_pro_1;
+            background-color: #FFFFFF;
+            border-radius: 9px;
+            .mai_lin_1 {
+                .mai_lin_tx1 {
+                    color: #FFFFFF;
+                    font-size: 25px;
+                    font-style: bold;
+                    font-family: "Open Sans", sans-serif;
+                    background-color: #90C6F9;
+                    text-align: center;
+                }
+            }
+            .mai_stel_bu1 {
+                display: grid;
+                grid-template-columns: minmax(15px, 1fr);
+                width: 113px;
+                height: 32px;
+                border: 1px solid #44F17E;
+                font-family: "Open Sans", sans-serif;
+                font-size: 19px;
+                color: black;
+                font-style: normal;
+                cursor: pointer;
+                background-color: white;
+                justify-self: end;
+                align-self: center;
+                margin-right: 10px;
+                transition: 0.5s;
+                &:hover {
+                    color: white;
+                    cursor: pointer;
+                    border: 1px solid #44F17E;
+                    background-color: #44F17E; 
+                }
+            }
+            .mai_stel_phot1 {
+                justify-self: center;
+            }
+
+            .mai_stel_sma1 {
+                color: #404040;
+                font-size: 15px;
+                font-family: "Ruda", sans-serif;
+                margin-left: 3px;
+            }
+            .mai_stel_selec_1 {
+                display: grid;
+                grid-template-columns: minmax(15px, 72.24px) minmax(15px, 72.24px) minmax(15px, 72.24px) minmax(15px, 72.24px);
+                grid-template-areas: "che_pr1 che_pr2 che_pr3 che_pr4";
+                justify-self: end;
+                align-self: start;
+                grid-column-gap: 30px;
+                margin-left: 3px;
+            }
+                .mai_stel_selec_te1_1 {
+                        grid-area: che_pr1;
+                        color: black;
+                        border: 3px solid #69C8F3;
+                        font-size: 17px;
+                        cursor: pointer;
+                        font-style: normal;
+                        font-family: "Open Sans", sans-serif;
+                        text-align: center;
+                        border-radius: 19px;
+                        transition: 0.5s;
+                        &:hover {
+                            cursor: pointer;
+                            color: white;
+                            background-color: #69C8F3;
+                            font-style: bold;
+                        }
+                }
+
+                .mai_stel_selec_te2_1 {
+                    grid-area: che_pr2;
+                    color: black;
+                    border: 3px solid #69C8F3;
+                    text-align: center;
+                    font-size: 17px;
+                    cursor: pointer;
+                    font-style: normal;
+                    font-family: "Open Sans", sans-serif;
+                    border-radius: 19px;
+                    transition: 0.5s;
+                    &:hover {
+                        cursor: pointer;
+                        color: white;
+                        background-color: #69C8F3;
+                        font-style: bold;
+                    }
+                } 
+                .mai_stel_selec_te3_1 {
+                    grid-area: che_pr3;
+                    border: 3px solid #69C8F3;
+                    text-align: center;
+                    font-size: 17px;
+                    cursor: pointer;
+                    font-style: normal;
+                    font-family: "Open Sans", sans-serif;
+                    border-radius: 13px;
+                    transition: 0.5s;
+                    &:hover {
+                        cursor: pointer;
+                        color: white;
+                        background-color: #69C8F3;
+                        font-style: bold;
+                    }
+                }
+
+                .mai_stel_selec_te4_1 {
+                    grid-area: che_pr4;
+                    border: 3px solid #69C8F3;
+                    text-align: center;
+                    font-size: 17px;
+                    cursor: pointer;
+                    font-style: normal;
+                    font-family: "Open Sans", sans-serif;
+                    border-radius: 19px;
+                    transition: 0.5s;
+                    &:hover {
+                        cursor: pointer;
+                        color: white;
+                        background-color: #69C8F3;
+                        font-style: bold;
+                    }
+                }
+                .mai_stel_nam1 {
+                    font-size: 21px;
+                    font-family: "STIX Two Text", sans-serif;
+                    color: black;
+                    font-style: normal;
+                    margin-left: 3px;
+                }
+                .mai_stel_descr1 {
+                    font-size: 15px;
+                    color: #353535;
+                    font-family: "Open Sans", sans-serif;
+                    font-style: normal;
+                    margin-left: 3px;
+                }
+                
+                .mai_setl_pri1 {
+                    font-family: "STIX Two Text", sans-serif;
+                    font-size: 23px;
+                    font-style: normal;
+                    color: black;
+                    justify-self: end;
+                    align-self: end;
+                    margin-bottom: -50px;
+                    margin-right: 130px;
+                }
+    
+                .mai_stel_sal1 {
+                    font-family: "Ruda", sans-serif;
+                    font-size: 15px;
+                    font-style: normal;
+                    color: black;
+                    justify-self: end;
+                    align-self: end;
+                    margin-bottom: -45px;
+                    margin-right: 125px;
+                }
+                
+            }
+            
+        }
+        
+    }
+
+        .mai_stel_2 {
+            width: 359px;
+            height: 572px;
+            grid-area: mai_pro_2;
+            background-color: #FFFFFF;
+        }
+
+        .mai_stel_3 {
+            width: 359px;
+            height: 572px;
+            grid-area: mai_pro_3;
+            background-color: #FFFFFF;
+        }
+
+        .mai_stel_4 {
+            width: 359px;
+            height: 572px;
+            grid-area: mai_pro_4;
+            background-color: #FFFFFF;
+        }
+
+        .mai_stel_5 {
+            width: 359px;
+            height: 572px;
+            grid-area: mai_pro_5;
+            background-color: #FFFFFF;
+        }
+
+        .mai_stel_6 {
+            width: 359px;
+            height: 572px;
+            grid-area: mai_pro_6;
+            background-color: #FFFFFF;
+        }
+
+        .mai_stel_7 {
+            width: 359px;
+            height: 572px;
+            grid-area: mai_pro_7;
+            background-color: #FFFFFF;
+        }
+
+        .mai_stel_8 {
+            width: 359px;
+            height: 572px;
+            grid-area: mai_pro_8;
+            background-color: #FFFFFF;
+        }
+
+        .mai_stel_9 {
+            width: 359px;
+            height: 572px;
+            grid-area: mai_pro_9;
+            background-color: #FFFFFF;
+        }
+
+        .mai_stel_10 {
+            width: 359px;
+            height: 572px;
+            grid-area: mai_pro_10;
+            background-color: #FFFFFF;
+        }
+
+        .mai_stel_11 {
+            width: 359px;
+            height: 572px;
+            grid-area: mai_pro_11;
+            background-color: #FFFFFF;
+        }
+
+        .mai_stel_12 {
+            width: 359px;
+            height: 572px;
+            grid-area: mai_pro_12;
+            background-color: #FFFFFF;
+        }
