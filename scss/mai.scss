@@ -787,7 +787,173 @@
             height: 572px;
             grid-area: mai_pro_5;
             background-color: #FFFFFF;
+            .mai_lin_5 {
+                .mai_lin_tx5 {
+                    color: #FFFFFF;
+                    font-size: 25px;
+                    font-style: bold;
+                    font-family: "Open Sans", sans-serif;
+                    background-color: #90C6F9;
+                    text-align: center;
+                }
+            }
         }
+
+        .mai_stel_phot5 {
+            justify-self: center;
+        }
+
+        .mai_stel_sma5 {
+            color: #404040;
+            font-size: 15px;
+            font-family: "Ruda", sans-serif;
+            margin-left: 3px;
+        }
+
+        .mai_stel_selec_5 {
+            display: grid;
+            grid-template-columns: minmax(15px, 72.24px) minmax(15px, 72.24px) minmax(15px, 72.24px) minmax(15px, 72.24px);
+            grid-template-areas: "che_pr1 che_pr2 che_pr3 che_pr4";
+            justify-self: end;
+            align-self: start;
+            grid-column-gap: 30px;
+            margin-left: 3px;
+        }
+
+        .mai_stel_selec_te1_5 {
+            grid-area: che_pr1;
+            color: black;
+            border: 3px solid #69C8F3;
+            font-size: 17px;
+            cursor: pointer;
+            font-style: normal;
+            font-family: "Open Sans", sans-serif;
+            text-align: center;
+            border-radius: 19px;
+            transition: 0.5s;
+            &:hover {
+                cursor: pointer;
+                color: white;
+                background-color: #69C8F3;
+                font-style: bold;
+            }
+    }
+
+    .mai_stel_selec_te2_5 {
+        grid-area: che_pr2;
+        color: black;
+        border: 3px solid #69C8F3;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 19px;
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #69C8F3;
+            font-style: bold;
+        }
+    } 
+    .mai_stel_selec_te3_5 {
+        grid-area: che_pr3;
+        border: 3px solid #69C8F3;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 13px;
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #69C8F3;
+            font-style: bold;
+        }
+    }
+
+    .mai_stel_selec_te4_5 {
+        grid-area: che_pr4;
+        border: 3px solid #69C8F3;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 19px;
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #69C8F3;
+            font-style: bold;
+        }
+    }
+
+    .mai_stel_nam5 {
+        font-size: 21px;
+        font-family: "STIX Two Text", sans-serif;
+        color: black;
+        font-style: normal;
+        margin-left: 3px;
+    }
+
+    .mai_stel_descr5 {
+        font-size: 15px;
+        color: #353535;
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        margin-left: 3px;
+    }
+
+    .mai_setl_pri5 {
+        font-family: "STIX Two Text", sans-serif;
+        font-size: 23px;
+        font-style: normal;
+        color: black;
+        justify-self: end;
+        align-self: end;
+        margin-bottom: -50px;
+        margin-right: 130px;
+    }
+
+    .mai_stel_sal5 {
+        font-family: "Ruda", sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        color: black;
+        justify-self: end;
+        align-self: end;
+        margin-bottom: -45px;
+        margin-right: 125px;
+    }
+
+    .mai_stel_bu5 {
+        display: grid;
+        grid-template-columns: minmax(15px, 1fr);
+        width: 113px;
+        height: 32px;
+        border: 1px solid #44F17E;
+        font-family: "Open Sans", sans-serif;
+        font-size: 19px;
+        color: black;
+        font-style: normal;
+        cursor: pointer;
+        background-color: white;
+        justify-self: end;
+        align-self: center;
+        margin-right: 10px;
+        transition: 0.5s;
+        &:hover {
+            color: white;
+            cursor: pointer;
+            border: 1px solid #44F17E;
+            background-color: #44F17E; 
+        }
+    }
 
         .mai_stel_6 {
             display: grid;
@@ -795,7 +961,173 @@
             height: 572px;
             grid-area: mai_pro_6;
             background-color: #FFFFFF;
+            .mai_lin_6 {
+                .mai_lin_tx6 {
+                    color: #FFFFFF;
+                    font-size: 25px;
+                    font-style: bold;
+                    font-family: "Open Sans", sans-serif;
+                    background-color: #90C6F9;
+                    text-align: center;
+                }
+            }
         }
+
+        .mai_stel_phot6 {
+            justify-self: center;
+        }
+
+        .mai_stel_sma6 {
+            color: #404040;
+            font-size: 15px;
+            font-family: "Ruda", sans-serif;
+            margin-left: 3px;
+        }
+
+        .mai_stel_selec_6 {
+            display: grid;
+            grid-template-columns: minmax(15px, 72.24px) minmax(15px, 72.24px) minmax(15px, 72.24px) minmax(15px, 72.24px);
+            grid-template-areas: "che_pr1 che_pr2 che_pr3 che_pr4";
+            justify-self: end;
+            align-self: start;
+            grid-column-gap: 30px;
+            margin-left: 3px;
+        }
+
+        .mai_stel_selec_te1_6 {
+            grid-area: che_pr1;
+            color: black;
+            border: 3px solid #69C8F3;
+            font-size: 17px;
+            cursor: pointer;
+            font-style: normal;
+            font-family: "Open Sans", sans-serif;
+            text-align: center;
+            border-radius: 19px;
+            transition: 0.5s;
+            &:hover {
+                cursor: pointer;
+                color: white;
+                background-color: #69C8F3;
+                font-style: bold;
+            }
+    }
+
+    .mai_stel_selec_te2_6 {
+        grid-area: che_pr2;
+        color: black;
+        border: 3px solid #69C8F3;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 19px;
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #69C8F3;
+            font-style: bold;
+        }
+    } 
+    .mai_stel_selec_te3_6 {
+        grid-area: che_pr3;
+        border: 3px solid #69C8F3;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 13px;
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #69C8F3;
+            font-style: bold;
+        }
+    }
+
+    .mai_stel_selec_te4_6 {
+        grid-area: che_pr4;
+        border: 3px solid #69C8F3;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 19px;
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #69C8F3;
+            font-style: bold;
+        }
+    }
+
+    .mai_stel_nam6 {
+        font-size: 21px;
+        font-family: "STIX Two Text", sans-serif;
+        color: black;
+        font-style: normal;
+        margin-left: 3px;
+    }
+
+    .mai_stel_descr6 {
+        font-size: 15px;
+        color: #353535;
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        margin-left: 3px;
+    }
+
+    .mai_setl_pri6 {
+        font-family: "STIX Two Text", sans-serif;
+        font-size: 23px;
+        font-style: normal;
+        color: black;
+        justify-self: end;
+        align-self: end;
+        margin-bottom: -50px;
+        margin-right: 130px;
+    }
+
+    .mai_stel_sal6 {
+        font-family: "Ruda", sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        color: black;
+        justify-self: end;
+        align-self: end;
+        margin-bottom: -45px;
+        margin-right: 125px;
+    }
+
+    .mai_stel_bu6 {
+        display: grid;
+        grid-template-columns: minmax(15px, 1fr);
+        width: 113px;
+        height: 32px;
+        border: 1px solid #44F17E;
+        font-family: "Open Sans", sans-serif;
+        font-size: 19px;
+        color: black;
+        font-style: normal;
+        cursor: pointer;
+        background-color: white;
+        justify-self: end;
+        align-self: center;
+        margin-right: 10px;
+        transition: 0.5s;
+        &:hover {
+            color: white;
+            cursor: pointer;
+            border: 1px solid #44F17E;
+            background-color: #44F17E; 
+        }
+    }
 
         .mai_stel_7 {
             display: grid;
@@ -805,6 +1137,179 @@
             background-color: #FFFFFF;
         }
 
+        .mai_stel_phot7 {
+            justify-self: center;
+        }
+
+        .mai_stel_sma7 {
+            color: #404040;
+            font-size: 15px;
+            font-family: "Ruda", sans-serif;
+            margin-left: 3px;
+        }
+
+        .mai_stel_selec_7 {
+            display: grid;
+            grid-template-columns: minmax(15px, 72.24px) minmax(15px, 72.24px) minmax(15px, 72.24px) minmax(15px, 72.24px);
+            grid-template-areas: "che_pr1 che_pr2 che_pr3 che_pr4";
+            justify-self: end;
+            align-self: start;
+            grid-column-gap: 30px;
+            margin-left: 3px;
+        }
+
+        .mai_stel_selec_te1_7 {
+            grid-area: che_pr1;
+            color: black;
+            border: 3px solid #69C8F3;
+            font-size: 17px;
+            cursor: pointer;
+            font-style: normal;
+            font-family: "Open Sans", sans-serif;
+            text-align: center;
+            border-radius: 19px;
+            transition: 0.5s;
+            &:hover {
+                cursor: pointer;
+                color: white;
+                background-color: #69C8F3;
+                font-style: bold;
+            }
+    }
+
+    .mai_stel_selec_te2_7 {
+        grid-area: che_pr2;
+        color: black;
+        border: 3px solid #69C8F3;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 19px;
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #69C8F3;
+            font-style: bold;
+        }
+    } 
+    .mai_stel_selec_te3_7 {
+        grid-area: che_pr3;
+        border: 3px solid #69C8F3;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 13px;
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #69C8F3;
+            font-style: bold;
+        }
+    }
+
+    .mai_stel_selec_te4_7 {
+        grid-area: che_pr4;
+        border: 3px solid #69C8F3;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 19px;
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #69C8F3;
+            font-style: bold;
+        }
+    }
+
+    .mai_stel_nam7 {
+        font-size: 21px;
+        font-family: "STIX Two Text", sans-serif;
+        color: black;
+        font-style: normal;
+        margin-left: 3px;
+    }
+
+    .mai_stel_descr7 {
+        font-size: 15px;
+        color: #353535;
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        margin-left: 3px;
+    }
+
+    .mai_setl_pri7 {
+        font-family: "STIX Two Text", sans-serif;
+        font-size: 23px;
+        font-style: normal;
+        color: black;
+        justify-self: end;
+        align-self: end;
+        margin-bottom: -50px;
+        margin-right: 130px;
+        @include desk_scree3 {
+            justify-self: center;
+            align-self: end;
+            margin-right: 0px;
+            margin-left: 1px;
+            margin-bottom: -25px;
+        }
+    }
+
+    .mai_stel_sal7 {
+        font-family: "Ruda", sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        color: black;
+        justify-self: end;
+        align-self: end;
+        margin-bottom: -45px;
+        margin-right: 125px;
+        @include desk_scree3 {
+            justify-self: center;
+            align-self: center;
+            margin-bottom: -29px;
+            margin-right: 13px;
+        }
+    }
+
+    .mai_stel_bu7 {
+        display: grid;
+        grid-template-columns: minmax(15px, 1fr);
+        width: 113px;
+        height: 32px;
+        border: 1px solid #44F17E;
+        font-family: "Open Sans", sans-serif;
+        font-size: 19px;
+        color: black;
+        font-style: normal;
+        cursor: pointer;
+        background-color: white;
+        justify-self: end;
+        align-self: center;
+        margin-right: 10px;
+        transition: 0.5s;
+        @include desk_scree3 {
+            justify-self: center;
+            align-self: center;
+        }
+        &:hover {
+            color: white;
+            cursor: pointer;
+            border: 1px solid #44F17E;
+            background-color: #44F17E; 
+        }
+    }
+
         .mai_stel_8 {
             display: grid;
             width: 359px;
@@ -812,6 +1317,179 @@
             grid-area: mai_pro_8;
             background-color: #FFFFFF;
         }
+
+        .mai_stel_phot8 {
+            justify-self: center;
+        }
+
+        .mai_stel_sma8 {
+            color: #404040;
+            font-size: 15px;
+            font-family: "Ruda", sans-serif;
+            margin-left: 3px;
+        }
+
+        .mai_stel_selec_8 {
+            display: grid;
+            grid-template-columns: minmax(15px, 72.24px) minmax(15px, 72.24px) minmax(15px, 72.24px) minmax(15px, 72.24px);
+            grid-template-areas: "che_pr1 che_pr2 che_pr3 che_pr4";
+            justify-self: end;
+            align-self: start;
+            grid-column-gap: 30px;
+            margin-left: 3px;
+        }
+
+        .mai_stel_selec_te1_8 {
+            grid-area: che_pr1;
+            color: black;
+            border: 3px solid #69C8F3;
+            font-size: 17px;
+            cursor: pointer;
+            font-style: normal;
+            font-family: "Open Sans", sans-serif;
+            text-align: center;
+            border-radius: 19px;
+            transition: 0.5s;
+            &:hover {
+                cursor: pointer;
+                color: white;
+                background-color: #69C8F3;
+                font-style: bold;
+            }
+    }
+
+    .mai_stel_selec_te2_8 {
+        grid-area: che_pr2;
+        color: black;
+        border: 3px solid #69C8F3;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 19px;
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #69C8F3;
+            font-style: bold;
+        }
+    } 
+    .mai_stel_selec_te3_8 {
+        grid-area: che_pr3;
+        border: 3px solid #69C8F3;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 13px;
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #69C8F3;
+            font-style: bold;
+        }
+    }
+
+    .mai_stel_selec_te4_8 {
+        grid-area: che_pr4;
+        border: 3px solid #69C8F3;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 19px;
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #69C8F3;
+            font-style: bold;
+        }
+    }
+
+    .mai_stel_nam8 {
+        font-size: 21px;
+        font-family: "STIX Two Text", sans-serif;
+        color: black;
+        font-style: normal;
+        margin-left: 3px;
+    }
+
+    .mai_stel_descr8 {
+        font-size: 15px;
+        color: #353535;
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        margin-left: 3px;
+    }
+
+    .mai_setl_pri8 {
+        font-family: "STIX Two Text", sans-serif;
+        font-size: 23px;
+        font-style: normal;
+        color: black;
+        justify-self: end;
+        align-self: end;
+        margin-bottom: -50px;
+        margin-right: 130px;
+        @include desk_scree3 {
+            justify-self: center;
+            align-self: end;
+            margin-right: 0px;
+            margin-left: 1px;
+            margin-bottom: -25px;
+        }
+    }
+
+    .mai_stel_sal8 {
+        font-family: "Ruda", sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        color: black;
+        justify-self: end;
+        align-self: end;
+        margin-bottom: -45px;
+        margin-right: 125px;
+        @include desk_scree3 {
+            justify-self: center;
+            align-self: center;
+            margin-bottom: -29px;
+            margin-right: 13px;
+        }
+    }
+
+    .mai_stel_bu8 {
+        display: grid;
+        grid-template-columns: minmax(15px, 1fr);
+        width: 113px;
+        height: 32px;
+        border: 1px solid #44F17E;
+        font-family: "Open Sans", sans-serif;
+        font-size: 19px;
+        color: black;
+        font-style: normal;
+        cursor: pointer;
+        background-color: white;
+        justify-self: end;
+        align-self: center;
+        margin-right: 10px;
+        transition: 0.5s;
+        @include desk_scree3 {
+            justify-self: center;
+            align-self: center;
+        }
+        &:hover {
+            color: white;
+            cursor: pointer;
+            border: 1px solid #44F17E;
+            background-color: #44F17E; 
+        }
+    }
 
         .mai_stel_9 {
             display: grid;
@@ -821,6 +1499,179 @@
             background-color: #FFFFFF;
         }
 
+        .mai_stel_phot9 {
+            justify-self: center;
+        }
+
+        .mai_stel_sma9 {
+            color: #404040;
+            font-size: 15px;
+            font-family: "Ruda", sans-serif;
+            margin-left: 3px;
+        }
+
+        .mai_stel_selec_9 {
+            display: grid;
+            grid-template-columns: minmax(15px, 72.24px) minmax(15px, 72.24px) minmax(15px, 72.24px) minmax(15px, 72.24px);
+            grid-template-areas: "che_pr1 che_pr2 che_pr3 che_pr4";
+            justify-self: end;
+            align-self: start;
+            grid-column-gap: 30px;
+            margin-left: 3px;
+        }
+
+        .mai_stel_selec_te1_9 {
+            grid-area: che_pr1;
+            color: black;
+            border: 3px solid #69C8F3;
+            font-size: 17px;
+            cursor: pointer;
+            font-style: normal;
+            font-family: "Open Sans", sans-serif;
+            text-align: center;
+            border-radius: 19px;
+            transition: 0.5s;
+            &:hover {
+                cursor: pointer;
+                color: white;
+                background-color: #69C8F3;
+                font-style: bold;
+            }
+    }
+
+    .mai_stel_selec_te2_9 {
+        grid-area: che_pr2;
+        color: black;
+        border: 3px solid #69C8F3;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 19px;
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #69C8F3;
+            font-style: bold;
+        }
+    } 
+    .mai_stel_selec_te3_9 {
+        grid-area: che_pr3;
+        border: 3px solid #69C8F3;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 13px;
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #69C8F3;
+            font-style: bold;
+        }
+    }
+
+    .mai_stel_selec_te4_9 {
+        grid-area: che_pr4;
+        border: 3px solid #69C8F3;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 19px;
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #69C8F3;
+            font-style: bold;
+        }
+    }
+
+    .mai_stel_nam9 {
+        font-size: 21px;
+        font-family: "STIX Two Text", sans-serif;
+        color: black;
+        font-style: normal;
+        margin-left: 3px;
+    }
+
+    .mai_stel_descr9 {
+        font-size: 15px;
+        color: #353535;
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        margin-left: 3px;
+    }
+
+    .mai_setl_pri9 {
+        font-family: "STIX Two Text", sans-serif;
+        font-size: 23px;
+        font-style: normal;
+        color: black;
+        justify-self: end;
+        align-self: end;
+        margin-bottom: -50px;
+        margin-right: 130px;
+        @include desk_scree3 {
+            justify-self: center;
+            align-self: end;
+            margin-right: 0px;
+            margin-left: 1px;
+            margin-bottom: -25px;
+        }
+    }
+
+    .mai_stel_sal9 {
+        font-family: "Ruda", sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        color: black;
+        justify-self: end;
+        align-self: end;
+        margin-bottom: -45px;
+        margin-right: 125px;
+        @include desk_scree3 {
+            justify-self: center;
+            align-self: center;
+            margin-bottom: -29px;
+            margin-right: 13px;
+        }
+    }
+
+    .mai_stel_bu9 {
+        display: grid;
+        grid-template-columns: minmax(15px, 1fr);
+        width: 113px;
+        height: 32px;
+        border: 1px solid #44F17E;
+        font-family: "Open Sans", sans-serif;
+        font-size: 19px;
+        color: black;
+        font-style: normal;
+        cursor: pointer;
+        background-color: white;
+        justify-self: end;
+        align-self: center;
+        margin-right: 10px;
+        transition: 0.5s;
+        @include desk_scree3 {
+            justify-self: center;
+            align-self: center;
+        }
+        &:hover {
+            color: white;
+            cursor: pointer;
+            border: 1px solid #44F17E;
+            background-color: #44F17E; 
+        }
+    }
+
         .mai_stel_10 {
             display: grid;
             width: 359px;
@@ -828,6 +1679,179 @@
             grid-area: mai_pro_10;
             background-color: #FFFFFF;
         }
+
+        .mai_stel_phot10 {
+            justify-self: center;
+        }
+
+        .mai_stel_sma10 {
+            color: #404040;
+            font-size: 15px;
+            font-family: "Ruda", sans-serif;
+            margin-left: 3px;
+        }
+
+        .mai_stel_selec_10 {
+            display: grid;
+            grid-template-columns: minmax(15px, 72.24px) minmax(15px, 72.24px) minmax(15px, 72.24px) minmax(15px, 72.24px);
+            grid-template-areas: "che_pr1 che_pr2 che_pr3 che_pr4";
+            justify-self: end;
+            align-self: start;
+            grid-column-gap: 30px;
+            margin-left: 3px;
+        }
+
+        .mai_stel_selec_te1_10 {
+            grid-area: che_pr1;
+            color: black;
+            border: 3px solid #69C8F3;
+            font-size: 17px;
+            cursor: pointer;
+            font-style: normal;
+            font-family: "Open Sans", sans-serif;
+            text-align: center;
+            border-radius: 19px;
+            transition: 0.5s;
+            &:hover {
+                cursor: pointer;
+                color: white;
+                background-color: #69C8F3;
+                font-style: bold;
+            }
+    }
+
+    .mai_stel_selec_te2_10 {
+        grid-area: che_pr2;
+        color: black;
+        border: 3px solid #69C8F3;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 19px;
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #69C8F3;
+            font-style: bold;
+        }
+    } 
+    .mai_stel_selec_te3_10 {
+        grid-area: che_pr3;
+        border: 3px solid #69C8F3;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 13px;
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #69C8F3;
+            font-style: bold;
+        }
+    }
+
+    .mai_stel_selec_te4_10 {
+        grid-area: che_pr4;
+        border: 3px solid #69C8F3;
+        text-align: center;
+        font-size: 17px;
+        cursor: pointer;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 19px;
+        transition: 0.5s;
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #69C8F3;
+            font-style: bold;
+        }
+    }
+
+    .mai_stel_nam10 {
+        font-size: 21px;
+        font-family: "STIX Two Text", sans-serif;
+        color: black;
+        font-style: normal;
+        margin-left: 3px;
+    }
+
+    .mai_stel_descr10 {
+        font-size: 15px;
+        color: #353535;
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        margin-left: 3px;
+    }
+
+    .mai_setl_pri10 {
+        font-family: "STIX Two Text", sans-serif;
+        font-size: 23px;
+        font-style: normal;
+        color: black;
+        justify-self: end;
+        align-self: end;
+        margin-bottom: -50px;
+        margin-right: 130px;
+        @include desk_scree3 {
+            justify-self: center;
+            align-self: end;
+            margin-right: 0px;
+            margin-left: 1px;
+            margin-bottom: -25px;
+        }
+    }
+
+    .mai_stel_sal10 {
+        font-family: "Ruda", sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        color: black;
+        justify-self: end;
+        align-self: end;
+        margin-bottom: -45px;
+        margin-right: 125px;
+        @include desk_scree3 {
+            justify-self: center;
+            align-self: center;
+            margin-bottom: -29px;
+            margin-right: 13px;
+        }
+    }
+
+    .mai_stel_bu10 {
+        display: grid;
+        grid-template-columns: minmax(15px, 1fr);
+        width: 113px;
+        height: 32px;
+        border: 1px solid #44F17E;
+        font-family: "Open Sans", sans-serif;
+        font-size: 19px;
+        color: black;
+        font-style: normal;
+        cursor: pointer;
+        background-color: white;
+        justify-self: end;
+        align-self: center;
+        margin-right: 10px;
+        transition: 0.5s;
+        @include desk_scree3 {
+            justify-self: center;
+            align-self: center;
+        }
+        &:hover {
+            color: white;
+            cursor: pointer;
+            border: 1px solid #44F17E;
+            background-color: #44F17E; 
+        }
+    }
 
         .mai_stel_11 {
             display: grid;
@@ -843,4 +1867,39 @@
             height: 572px;
             grid-area: mai_pro_12;
             background-color: #FFFFFF;
+        }
+
+        .mai_inpu_for1 {
+            display: grid;
+            .mai_inpu_wan_bu1 {
+                display: grid;
+                grid-template-columns: minmax(15px, 1860px);
+                grid-template-rows: minmax(15px, 32px);
+                grid-template-areas: "for_nm1"
+                                     "for_nm2"
+                                     "for_in1"
+                                     "for_in2"
+                                     "for_in3 for_in4 for_in5"
+                                     "for_in6"
+                                     "for_bt1";
+                border: 1px solid black;
+                .mai_inpu_te1_1 {
+                    grid-area: for_nm1;
+                    color: black;
+                    font-size: 19px;
+                    font-style: normal;
+                    font-family: "Open Sans", sans-serif;
+                }
+                .mai_inpu_te2_2 {
+                    grid-area: for_nm2;
+                }
+
+                .mai_inpu_pla1_2 {
+                    grid-area: for_in1;
+                }
+
+                .mai_inpu_pla2_2 {
+                    grid-area: for_in2;
+                }
+            }
         }
