@@ -1,0 +1,302 @@
+.foote {
+    display: grid;
+    grid-template-columns: minmax(15px, 1fr);
+    grid-template-rows: minmax(15px, 1fr);
+    margin-top: 30px;
+    border: 1px solid #C4C4C4;
+    .foote_wrappe {
+        display: grid;
+        grid-template-columns: minmax(15px, 150px) minmax(15px, 150px) minmax(15px, 150px) minmax(15px, 150px) minmax(15px, 150px) minmax(15px, 150px) minmax(15px, 150px) minmax(15px, 150px) minmax(15px, 150px);
+        grid-template-areas: "blo_nm1 blo_nm2"
+                              "blo_nm3 blo_nm4 blo_nm5 blo_nm6 blo_nm7"
+                              "blo_ln1 blo_ln2 blo_ln3";
+        justify-self: start;
+        align-self: start;
+        .foote_log {
+            grid-area: blo_nm1;
+        }
+        .foote_rul {
+            grid-area: blo_nm2;
+        }
+
+        .foote_u_1_1 {
+            display: grid;
+            grid-template-columns: minmax(15px, 142px);
+            grid-template-rows: minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px);
+            .foote_l_1_1, .foote_l_2_1, .foote_l_3_1, .foote_l_4_1, .foote_l_5_1, .foote_l_6_1 {
+            }
+            .foote_l_1_1 {
+                list-style: none;
+                font-style: bold;
+                font-size: 17px;
+                color: #1D1D1D;
+                font-family: "Ruda", sans-serif;
+            }
+
+            .foote_l_2_1 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+                
+            }
+
+            .foote_l_3_1 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+
+            .foote_l_4_1 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+
+            .foote_l_5_1 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+
+            .foote_l_6_1 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+        }
+
+        .foote_u_1_2 {
+            display: grid;
+            grid-template-columns: minmax(15px, 142px);
+            grid-template-rows: minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px);
+            .foote_l_1_2, .foote_l_2_2, .foote_l_3_2, .foote_l_4_2, .foote_l_5_2, .foote_l_6_2 {
+            }
+            .foote_l_1_2 {
+                list-style: none;
+                font-style: bold;
+                font-size: 17px;
+                color: #1D1D1D;
+                font-family: "Ruda", sans-serif;
+            }
+
+            .foote_l_2_2 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+                
+            }
+
+            .foote_l_3_2 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+
+            .foote_l_4_2 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+
+            .foote_l_5_2 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+
+            .foote_l_6_2 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+        }
+
+        .foote_u_1_3 {
+            display: grid;
+            grid-template-columns: minmax(15px, 142px);
+            grid-template-rows: minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px);
+            .foote_l_1_3, .foote_l_2_3, .foote_l_3_3, .foote_l_4_3, .foote_l_5_3, .foote_l_6_3 {
+            }
+            .foote_l_1_3 {
+                list-style: none;
+                font-style: bold;
+                font-size: 17px;
+                color: #1D1D1D;
+                font-family: "Ruda", sans-serif;
+            }
+
+            .foote_l_2_3 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+                
+            }
+
+            .foote_l_3_3 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+
+            .foote_l_4_3 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+
+            .foote_l_5_3 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+
+            .foote_l_6_3 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+        }
+
+        .foote_u_1_4 {
+            display: grid;
+            grid-template-columns: minmax(15px, 142px);
+            grid-template-rows: minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px);
+            .foote_l_1_4, .foote_l_2_4, .foote_l_3_4, .foote_l_4_4, .foote_l_5_4, .foote_l_6_4 {
+            }
+            .foote_l_1_4 {
+                list-style: none;
+                font-style: bold;
+                font-size: 17px;
+                color: #1D1D1D;
+                font-family: "Ruda", sans-serif;
+            }
+
+            .foote_l_2_4 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+                
+            }
+
+            .foote_l_3_4 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+
+            .foote_l_4_4 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+
+            .foote_l_5_4 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+
+            .foote_l_6_4 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+        }
+
+        .foote_u_1_5 {
+            display: grid;
+            grid-template-columns: minmax(15px, 142px);
+            grid-template-rows: minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px);
+            .foote_l_1_5, .foote_l_2_5, .foote_l_3_5, .foote_l_4_5, .foote_l_5_5, .foote_l_6_5 {
+            }
+            .foote_l_1_5 {
+                list-style: none;
+                font-style: bold;
+                font-size: 17px;
+                color: #1D1D1D;
+                font-family: "Ruda", sans-serif;
+            }
+
+            .foote_l_2_5 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+                
+            }
+
+            .foote_l_3_5 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+
+            .foote_l_4_5 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+
+            .foote_l_5_5 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+
+            .foote_l_6_5 {
+                list-style: none;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+            }
+        }
+    }
+}

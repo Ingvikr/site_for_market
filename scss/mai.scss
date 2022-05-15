@@ -29,7 +29,7 @@
     }
     .mai_wra {
         display: grid;
-        grid-template-columns: minmax(15px, 359px);
+        grid-template-columns: minmax(15px, 379px);
         grid-template-rows: minmax(15px, 572px) minmax(15px, 572px) minmax(15px, 572px)  minmax(15px, 572px);
         grid-template-areas: "mai_pro_1 mai_pro_2 mai_pro_3"
                              "mai_pro_4 mai_pro_5 mai_pro_6"
@@ -53,6 +53,23 @@
 
                              @include desk_scree3 {
                                 grid-template-columns: minmax(15px, 570px);
+                                grid-template-rows: minmax(15px, 572px) minmax(15px, 572px) minmax(15px, 572px)  minmax(15px, 572px) minmax(15px, 572px) minmax(15px, 572px);
+                                grid-template-areas: "mai_pro_1"
+                                                     "mai_pro_2"
+                                                     "mai_pro_3"
+                                                     "mai_pro_4"
+                                                     "mai_pro_5"
+                                                     "mai_pro_6"
+                                                     "mai_pro_7"
+                                                     "mai_pro_8"
+                                                     "mai_pro_9"
+                                                     "mai_pro_10"
+                                                     "mai_pro_11"
+                                                     "mai_pro_12";
+                                grid-column-gap: 50px;
+                             }
+                             @include desk_scree4 {
+                                grid-template-columns: minmax(15px, 370px);
                                 grid-template-rows: minmax(15px, 572px) minmax(15px, 572px) minmax(15px, 572px)  minmax(15px, 572px) minmax(15px, 572px) minmax(15px, 572px);
                                 grid-template-areas: "mai_pro_1"
                                                      "mai_pro_2"
@@ -1871,35 +1888,310 @@
 
         .mai_inpu_for1 {
             display: grid;
+            grid-template-columns: minmax(-484px, 1fr);
+            grid-template-rows: minmax(15px, 534px);
+            @include desk_scree3 {
+                grid-template-columns: minmax(-484px, 500px);
+                grid-template-rows: minmax(15px, 530px);
+            }
+            border: 1px solid #000000;
             .mai_inpu_wan_bu1 {
-                display: grid;
-                grid-template-columns: minmax(15px, 1860px);
-                grid-template-rows: minmax(15px, 32px);
-                grid-template-areas: "for_nm1"
-                                     "for_nm2"
-                                     "for_in1"
-                                     "for_in2"
-                                     "for_in3 for_in4 for_in5"
-                                     "for_in6"
-                                     "for_bt1";
-                border: 1px solid black;
+                grid-template-columns: minmax(-484px, 550px);   
+                                      @include desk_scree3 {
+                                        grid-template-areas: "for_nm1"
+                                        "for_nm2"
+                                        "for_nm3"
+                                        "for_in1"
+                                        "for_in2"
+                                        "for_in3"
+                                        "for_in4"
+                                        "for_in5"
+                                        "for_in6"
+                                        "for_bt1";
+                                      }
+
+                @include desk_scree5 {
+                grid-template-areas:    "for_nm1 for_nm2"
+                                        "for_nm3"
+                                        "for_in1  for_in2"
+                                        "for_in3  for_in4"
+                                        "for_in5  for_in6"
+                                        "for_bt1";
+                }
                 .mai_inpu_te1_1 {
+                    display: grid;
                     grid-area: for_nm1;
+                    font-size: 19px;
+                    color: black;
+                    margin-left: 9px;
+                    font-style: normal;
+                    font-family: "STIX Two Text", sans-serif;
+                    @include desk_scree3 {
+                        justify-self: center;
+                        align-self: end;
+                    }
+                    @include desk_scree4 {
+                        justify-self: start;
+                        align-self: start;
+                    }
+                }
+                .mai_inpu_te2_1 {
+                    display: grid;
+                    grid-area: for_nm2;
+                    font-size: 15px;
+                    color: #424242;
+                    margin-left: 9px;
+                    font-family: "Open Sans", sans-serif;
+                    justify-self: start;
+                    align-self: start;
+                    font-style: normal;
+                    @include desk_scree3 {
+                        justify-self: center;
+                        align-self: end;
+                    }
+                    @include desk_scree4 {
+                        justify-self: start;
+                        align-self: start;
+                    }
+                }
+
+                .mai_inpu_te3_1 {
+                    display: grid;
+                    grid-area: for_nm3;
+                    font-style: normal;
+                    color: #424242;
+                    font-size: 19px;
+                    font-family: "Open Sans", sans-serif;
+                    justify-self: start;
+                    margin-right: -937px;
+                    margin-left: 9px;
+                    @include desk_scree3 {
+                        justify-self: center;
+                        align-self: end;
+                    }
+                    @include desk_scree4 {
+                        justify-self: start;
+                        align-self: start;
+                    }
+                }
+
+                .mai_inpu_pla1_1 {
+                    margin-top: 56px;
+                    width: 315px;
+                    height: 35px;
+                    border: none;
+                    margin-left: 9px;
+                    background-color: transparent;
+                    border-bottom: 1px solid black;
+                    outline: none;
+                    transition: 0.5s;
+                    grid-area: for_in1;
+                    &:focus {
+                        border-bottom: 1px solid #D34444;
+                        color: black;
+                    }
+                    &::placeholder {
+                        font-size: 13px;
+                        font-style: normal;
+                        font-family: "Open Sans", sans-serif;
+                        color: black;
+                    }
+                    @include desk_scree3 {
+                        justify-self: center;
+                        align-self: end;
+                    }
+                    @include desk_scree4 {
+                        justify-self: start;
+                        align-self: start;
+                    }
+                }
+
+                .mai_inpu_pla2_1 {
+                    width: 315px;
+                    height: 35px;
+                    grid-area: for_in2;
+                    border: none;
+                    margin-left: 9px;
+                    background-color: transparent;
+                    border-bottom: 1px solid black;
+                    transition: 0.5s;
+                    outline: none;
+                    &:focus {
+                        border-bottom: 1px solid #D34444;
+                        color: black;
+                    }
+                    &::placeholder {
+                        font-size: 13px;
+                        font-style: normal;
+                        font-family: "Open Sans", sans-serif;
+                        color: black;
+                    }
+                    @include desk_scree3 {
+                        justify-self: center;
+                        align-self: end;
+                    }
+
+                    @include desk_scree4 {
+                        justify-self: start;
+                        align-self: start;
+                    }
+                }
+
+                .mai_inpu_pla3_1 {
+                    width: 315px;
+                    height: 35px;
+                    grid-area: for_in3;
+                    border: none;
+                    margin-left: 9px;
+                    transition: 0.5s;
+                    background-color: transparent;
+                    border-bottom: 1px solid black;
+                    outline: none;
+                    &:focus {
+                        border-bottom: 1px solid #D34444;
+                        color: black;
+                    }
+                    &::placeholder {
+                        font-size: 13px;
+                        font-style: normal;
+                        font-family: "Open Sans", sans-serif;
+                        color: black;
+                    }
+                    @include desk_scree3 {
+                        justify-self: center;
+                        align-self: end;
+                    }
+
+                    @include desk_scree4 {
+                        justify-self: start;
+                        align-self: start;
+                    }
+                }
+
+                .mai_inpu_pla4_1 {
+                    width: 315px;
+                    height: 35px;
+                    border: none;
+                    background-color: transparent;
+                    border-bottom: 1px solid black;
+                    outline: none;
+                    margin-left: 9px;
+                    grid-area: for_in4;
+                    transition: 0.5s;
+                    &:focus {
+                        border-bottom: 1px solid #D34444;
+                        color: black;
+                    }
+                    &::placeholder {
+                        font-size: 13px;
+                        font-style: normal;
+                        font-family: "Open Sans", sans-serif;
+                        color: black;
+                    }
+                    @include desk_scree3 {
+                        justify-self: center;
+                        align-self: end;
+                    }
+
+                    @include desk_scree4 {
+                        justify-self: start;
+                        align-self: start;
+                    }
+                }
+
+                .mai_inpu_pla5_1 {
+                    width: 315px;
+                    height: 35px;
+                    border: none;
+                    background-color: transparent;
+                    border-bottom: 1px solid black;
+                    margin-left: 9px;
+                    outline: none;
+                    grid-area: for_in5;
+                    transition: 0.5s;
+                    &:focus {
+                        border-bottom: 1px solid #D34444;
+                        color: black;
+                    }
+                    &::placeholder {
+                        font-size: 13px;
+                        font-style: normal;
+                        font-family: "Open Sans", sans-serif;
+                        color: black;
+                    }
+                    @include desk_scree3 {
+                        justify-self: center;
+                        align-self: end;
+                    }
+
+                    @include desk_scree4 {
+                        justify-self: start;
+                        align-self: start;
+                    }
+                }
+
+                .mai_inpu_pla6_1 {
+                    width: 315px;
+                    height: 35px;
+                    margin-left: 9px;
+                    grid-area: for_in6;
+                    border: none;
+                    background-color: transparent;
+                    border-bottom: 1px solid black;
+                    outline: none;
+                    transition: 0.5s;
+                    &:focus {
+                        border-bottom: 1px solid #D34444;
+                        color: black;
+                    }
+                    &::placeholder {
+                        font-size: 13px;
+                        font-style: normal;
+                        font-family: "Open Sans", sans-serif;
+                        color: black;
+                    }
+                    @include desk_scree3 {
+                        justify-self: center;
+                        align-self: end;
+                    }
+
+                    @include desk_scree4 {
+                        justify-self: start;
+                        align-self: start;
+                    }
+                }
+
+                .mai_inpu_but1_1 {
+                    width: 273px;
+                    height: 43px;
+                    margin-top: 146px;
+                    grid-area: for_bt1;
+                    background-color: transparent;
+                    border: 1px solid #D34444;
+                    cursor: pointer;
                     color: black;
                     font-size: 19px;
                     font-style: normal;
                     font-family: "Open Sans", sans-serif;
-                }
-                .mai_inpu_te2_2 {
-                    grid-area: for_nm2;
-                }
+                    transition: 0.5s;
+                    justify-self: start;
+                    margin-left: 50px;
+                    align-self: center;
+                    &:hover {
+                        background-color: #D34444;
+                        color: white;
+                        cursor: pointer;
+                        border: 1px solid #D34444;
+                    }
+                    @include desk_scree3 {
+                        justify-self: center;
+                        align-self: end;
+                    }
 
-                .mai_inpu_pla1_2 {
-                    grid-area: for_in1;
-                }
-
-                .mai_inpu_pla2_2 {
-                    grid-area: for_in2;
+                    @include desk_scree4 {
+                        justify-self: start;
+                        align-self: start;
+                    }
                 }
             }
         }

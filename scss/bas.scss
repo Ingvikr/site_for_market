@@ -1,6 +1,7 @@
 @import "medi/medi.scss";
 @import "webki.scss";
 @import "mai.scss";
+@import "foot.scss";
 @import "asi.scss";
 @import "font.scss";
 
@@ -188,19 +189,18 @@ body {
                 }
                 .l_6 {
                     grid-area: burg;
-                    fill: transparent;
+                    position: relative;
+                    background-color: transparent;
                     width: 97px;
                     height: 31px;
+                    cursor: pointer;
                     transition: 0.5s;
                     opacity: 0%;
                     @include desk_scree3 {
-                        fill: black;
-                        cursor: pointer;
                         opacity: 100%;
-                        justify-self: end;
                         &:hover {
-                            transform: rotate(90deg);
                             fill: #A52298;
+                            transform: rotate(90deg);
                         }
                     }
                 } 
