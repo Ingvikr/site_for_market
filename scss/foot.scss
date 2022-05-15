@@ -14,48 +14,122 @@
         align-self: start;
         .foote_log {
             grid-area: blo_nm1;
+            margin-top: -190px;
+            font-style: normal;
+            font-size: 27px;
+            font-family: "Teko", sans-serif;
+            margin-left: -1328px;
         }
         .foote_rul {
             grid-area: blo_nm2;
+            margin-left: -1328px;
+            font-style: normal;
+            font-family: "STIX Two Text", sans-serif;
+            font-size: 15px;
+            margin-top: -9px;
+
         }
 
         .foote_u_1_1 {
             display: grid;
             grid-template-columns: minmax(15px, 142px);
             grid-template-rows: minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px);
+            margin-left: 141px;
             .foote_l_1_1, .foote_l_2_1, .foote_l_3_1, .foote_l_4_1, .foote_l_5_1, .foote_l_6_1 {
             }
             .foote_l_1_1 {
+                position: relative;
                 list-style: none;
                 font-style: bold;
+                cursor: pointer;
                 font-size: 17px;
                 color: #1D1D1D;
                 font-family: "Ruda", sans-serif;
+                transition: 0.5s;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_2_1 {
                 list-style: none;
                 font-size: 15px;
                 font-style: normal;
+                cursor: pointer;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
                 
             }
 
             .foote_l_3_1 {
                 list-style: none;
                 font-size: 15px;
+                cursor: pointer;
                 font-style: normal;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_4_1 {
                 list-style: none;
                 font-size: 15px;
                 font-style: normal;
+                cursor: pointer;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_5_1 {
@@ -64,14 +138,44 @@
                 font-style: normal;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                cursor: pointer;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_6_1 {
                 list-style: none;
                 font-size: 15px;
+                cursor: pointer;
                 font-style: normal;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
         }
 
@@ -79,47 +183,123 @@
             display: grid;
             grid-template-columns: minmax(15px, 142px);
             grid-template-rows: minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px);
+            margin-left: 225px;
             .foote_l_1_2, .foote_l_2_2, .foote_l_3_2, .foote_l_4_2, .foote_l_5_2, .foote_l_6_2 {
             }
             .foote_l_1_2 {
                 list-style: none;
                 font-style: bold;
                 font-size: 17px;
+                cursor: pointer;
                 color: #1D1D1D;
                 font-family: "Ruda", sans-serif;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_2_2 {
                 list-style: none;
                 font-size: 15px;
+                cursor: pointer;
                 font-style: normal;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
                 
             }
 
             .foote_l_3_2 {
                 list-style: none;
                 font-size: 15px;
+                cursor: pointer;
                 font-style: normal;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_4_2 {
                 list-style: none;
                 font-size: 15px;
                 font-style: normal;
+                cursor: pointer;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_5_2 {
                 list-style: none;
                 font-size: 15px;
+                cursor: pointer;
                 font-style: normal;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_6_2 {
@@ -128,6 +308,21 @@
                 font-style: normal;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                cursor: pointer;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
         }
 
@@ -135,55 +330,146 @@
             display: grid;
             grid-template-columns: minmax(15px, 142px);
             grid-template-rows: minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px);
+            margin-left: 288px;
             .foote_l_1_3, .foote_l_2_3, .foote_l_3_3, .foote_l_4_3, .foote_l_5_3, .foote_l_6_3 {
             }
             .foote_l_1_3 {
                 list-style: none;
                 font-style: bold;
+                cursor: pointer;
                 font-size: 17px;
                 color: #1D1D1D;
                 font-family: "Ruda", sans-serif;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_2_3 {
                 list-style: none;
                 font-size: 15px;
+                cursor: pointer;
                 font-style: normal;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
                 
             }
 
             .foote_l_3_3 {
                 list-style: none;
                 font-size: 15px;
+                cursor: pointer;
                 font-style: normal;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_4_3 {
                 list-style: none;
                 font-size: 15px;
+                cursor: pointer;
                 font-style: normal;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_5_3 {
                 list-style: none;
                 font-size: 15px;
+                cursor: pointer;
                 font-style: normal;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_6_3 {
                 list-style: none;
                 font-size: 15px;
+                cursor: pointer;
                 font-style: normal;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
         }
 
@@ -191,6 +477,7 @@
             display: grid;
             grid-template-columns: minmax(15px, 142px);
             grid-template-rows: minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px);
+            margin-left: 343px;
             .foote_l_1_4, .foote_l_2_4, .foote_l_3_4, .foote_l_4_4, .foote_l_5_4, .foote_l_6_4 {
             }
             .foote_l_1_4 {
@@ -198,24 +485,69 @@
                 font-style: bold;
                 font-size: 17px;
                 color: #1D1D1D;
+                cursor: pointer;
                 font-family: "Ruda", sans-serif;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_2_4 {
                 list-style: none;
+                cursor: pointer;
                 font-size: 15px;
                 font-style: normal;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
                 
             }
 
             .foote_l_3_4 {
                 list-style: none;
                 font-size: 15px;
+                cursor: pointer;
                 font-style: normal;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_4_4 {
@@ -223,23 +555,68 @@
                 font-size: 15px;
                 font-style: normal;
                 font-family: "Inter", sans-serif;
+                cursor: pointer;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_5_4 {
                 list-style: none;
                 font-size: 15px;
                 font-style: normal;
+                cursor: pointer;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_6_4 {
                 list-style: none;
+                cursor: pointer;
                 font-size: 15px;
                 font-style: normal;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
         }
 
@@ -247,22 +624,53 @@
             display: grid;
             grid-template-columns: minmax(15px, 142px);
             grid-template-rows: minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px);
+            margin-left: 375px;
             .foote_l_1_5, .foote_l_2_5, .foote_l_3_5, .foote_l_4_5, .foote_l_5_5, .foote_l_6_5 {
             }
             .foote_l_1_5 {
                 list-style: none;
                 font-style: bold;
+                cursor: pointer;
                 font-size: 17px;
                 color: #1D1D1D;
                 font-family: "Ruda", sans-serif;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_2_5 {
                 list-style: none;
                 font-size: 15px;
                 font-style: normal;
+                cursor: pointer;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
                 
             }
 
@@ -270,32 +678,282 @@
                 list-style: none;
                 font-size: 15px;
                 font-style: normal;
+                cursor: pointer;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_4_5 {
                 list-style: none;
                 font-size: 15px;
+                cursor: pointer;
                 font-style: normal;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_5_5 {
                 list-style: none;
                 font-size: 15px;
+                cursor: pointer;
                 font-style: normal;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
             }
 
             .foote_l_6_5 {
                 list-style: none;
                 font-size: 15px;
+                cursor: pointer;
                 font-style: normal;
                 font-family: "Inter", sans-serif;
                 color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
+            }
+        }
+
+        .foote_u_1_6 {
+            display: grid;
+            grid-template-columns: minmax(15px, 142px);
+            grid-template-rows: minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px) minmax(15px, 28px);
+            margin-left: 425px;
+            .foote_l_1_6, .foote_l_2_6, .foote_l_3_6, .foote_l_4_6, .foote_l_5_6, .foote_l_6_6 {
+            }
+            .foote_l_1_6 {
+                list-style: none;
+                font-style: bold;
+                font-size: 17px;
+                cursor: pointer;
+                color: #1D1D1D;
+                font-family: "Ruda", sans-serif;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
+            }
+
+            .foote_l_2_6 {
+                list-style: none;
+                cursor: pointer;
+                font-size: 15px;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
+                
+            }
+
+            .foote_l_3_6 {
+                list-style: none;
+                font-size: 15px;
+                cursor: pointer;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
+            }
+
+            .foote_l_4_6 {
+                list-style: none;
+                font-size: 15px;
+                cursor: pointer;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
+            }
+
+            .foote_l_5_6 {
+                list-style: none;
+                font-size: 15px;
+                cursor: pointer;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
+            }
+
+            .foote_l_6_6 {
+                list-style: none;
+                font-size: 15px;
+                cursor: pointer;
+                font-style: normal;
+                font-family: "Inter", sans-serif;
+                color: #1D1D1D;
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    cursor: pointer;
+                    width: 0px;
+                    height: 3px;
+                    border-radius: 355px;
+                    background-color: black;
+                    transition: 0.5s;
+                }
+                &:hover::after {
+                    cursor: pointer;
+                    width: 65px;
+                }
+            }
+        }
+
+        .foote_u_2_7 {
+            display: grid;
+            grid-template-columns: minmax(15px, 142px) minmax(15px, 142px) minmax(15px, 142px) minmax(15px, 142px);
+            grid-template-rows: minmax(15px, 28px);
+            grid-template-areas: "foo_te1 foo_te2 foo_te3 foo_te4";
+            grid-column-gap: 129px;
+            justify-self: end;
+            align-self: end;
+            margin-bottom: -21px;
+            .foote_2_1_7 {
+                list-style: none;
+                cursor: pointer;
+                font-style: normal;
+                font-size: 15px;
+                font-family: "STIX Two Text", sans-serif;
+                color: #3E3E3E;
+            }
+
+            .foote_2_2_7 {
+                list-style: none;
+                cursor: pointer;
+                font-style: normal;
+                font-size: 15px;
+                color: #3E3E3E;
+            }
+
+            .foote_2_3_7 {
+                list-style: none;
+                cursor: pointer;
+                font-style: normal;
+                font-size: 15px;
+                color: #3E3E3E;
+            }
+
+            .foote_2_4_7 {
+                list-style: none;
+                font-style: normal;
+                cursor: pointer;
+                font-size: 15px;
+                color: #3E3E3E;
             }
         }
     }
